@@ -1,0 +1,12 @@
+Meridian Developments Pakistan — localized preview
+==================================================
+
+Brand: Meridian Developments Pakistan
+Tagline: Shaping Pakistan's Urban Future
+Domain: meridiandevelopments.pk (deploy: https://meridian-pk.vercel.app)
+
+Original template source: Hubtown India clone (content replaced; design unchanged)
+
+Preview server (caching proxy):
+  python serve_proxy.py
+  Then open: http://127.0.0.1:8765/
