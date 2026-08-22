@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Capture comparison screenshots of original vs local Hubtown clone."""
+"""Capture comparison screenshots of original vs local Astra Urban clone."""
 from __future__ import annotations
 
 import json
@@ -11,7 +11,7 @@ OUT = Path(r"D:\real estate\hubtown-clone\previews")
 OUT.mkdir(parents=True, exist_ok=True)
 
 TARGETS = [
-    ("original", "https://hubtown.co.in/"),
+    ("original", "https://astraurban.pk/"),
     ("clone", "http://127.0.0.1:8765/"),
 ]
 

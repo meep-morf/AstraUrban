@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Download Hubtown WebGL assets required for the homepage experience."""
+"""Download Astra Urban WebGL assets required for the homepage experience."""
 from __future__ import annotations
 
 import re
@@ -9,7 +9,7 @@ import urllib.error
 import urllib.request
 from pathlib import Path
 
-BASE = "https://hubtown.co.in"
+BASE = "https://astraurban.pk"
 OUT = Path(r"D:\real estate\hubtown-clone")
 CTX = ssl.create_default_context()
 UA = {"User-Agent": "Mozilla/5.0"}

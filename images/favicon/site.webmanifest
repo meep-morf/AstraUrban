@@ -1,6 +1,6 @@
 {
-  "name": "Meridian",
-  "short_name": "Meridian",
+  "name": "Astra Urban",
+  "short_name": "Astra",
   "icons": [
     {
       "src": "/images/favicon/web-app-manifest-192x192.png",
@@ -9,8 +9,8 @@
       "purpose": "maskable"
     },
     {
-      "src": "/images/favicon/web-app-manifest-5—x5—.png",
-      "sizes": "5—x5—",
+      "src": "/images/favicon/web-app-manifest-5\u2014x5\u2014.png",
+      "sizes": "5\u2014x5\u2014",
       "type": "image/png",
       "purpose": "maskable"
     }

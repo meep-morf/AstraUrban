@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Safe content-only localization for Meridian Developments Pakistan."""
+"""Safe content-only localization for Astra Urban Pakistan."""
 from __future__ import annotations
 
 import hashlib
@@ -8,12 +8,12 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 
-BRAND = "Meridian Developments Pakistan"
-BRAND_SHORT = "Meridian"
+BRAND = "Astra Urban Pakistan"
+BRAND_SHORT = "Astra Urban"
 TAGLINE = "Shaping Pakistan's Urban Future"
-DOMAIN = "meridiandevelopments.pk"
-SITE_URL = "https://meridian-pk.vercel.app"
-EMAIL = "hello@meridiandevelopments.pk"
+DOMAIN = "astraurban.pk"
+SITE_URL = "https://astra-urban-pk.vercel.app"
+EMAIL = "hello@astraurban.pk"
 PHONE = "+92 21 3876 4521"
 WHATSAPP = "9231238764521"
 ADDRESS = "Suite 1204, Ocean Tower, Clifton Block 5, Karachi 75600, Pakistan"
@@ -56,8 +56,8 @@ JS_SAFE_REPLACEMENTS = [
     ("Mumbai & India", "Pakistan"),
     ("Real Estate Developer in India", "Real Estate Developer in Pakistan"),
     ("Leading Real Estate Developer in India", "Premium Real Estate Developer in Pakistan"),
-    ("theatreProjectName:\"hubtown\"", 'theatreProjectName:"meridian-pk"'),
-    ('name:"hubtown-live"', 'name:"meridian-pk"'),
+    ("theatreProjectName:\"hubtown\"", 'theatreProjectName:"astra-urban-pk"'),
+    ('name:"hubtown-live"', 'name:"astra-urban-pk"'),
     ("linkedin.com/company/hubtown", "linkedin.com/company/meridian-developments-pakistan"),
     ("instagram.com/hubtown", "instagram.com/meridiandevelopments.pk"),
     ("facebook.com/hubtown", "facebook.com/meridiandevelopmentspk"),
@@ -143,7 +143,7 @@ CONTENT_REPLACEMENTS = [
     ("hubtown.co.in", DOMAIN),
     ("https://hubtown-live.netlify.app", SITE_URL),
     ("http://hubtown-live.netlify.app", SITE_URL),
-    ("hubtown-live", "meridian-pk"),
+    ("hubtown-live", "astra-urban-pk"),
     ("Central Suburbs", "Islamabad"),
     ("South Mumbai", "Karachi"),
     ("Western Suburbs", "Lahore"),
@@ -238,22 +238,22 @@ def location_str(city: str, slug: str) -> str:
 def slug_to_title(slug: str) -> str:
     slug = slug.strip().lower()
     special = {
-        "25-west": "Meridian West",
-        "25-south": "Meridian South",
-        "25-downtown": "Meridian Downtown",
-        "25-estates": "Meridian Estates",
-        "25-vistas": "Meridian Vistas",
-        "breach-candy-residential": "Meridian Clifton Residences",
-        "bandra-east-commercial-project": "Meridian Commercial Centre",
-        "sunstream-city": "Meridian Stream City",
-        "sunstream-city-residential": "Meridian Stream City",
-        "asmeeta-textile-park": "Meridian Industrial Park",
-        "dlf-akruti-info-parks": "Meridian Tech Park",
+        "25-west": "Astra West",
+        "25-south": "Astra South",
+        "25-downtown": "Astra Downtown",
+        "25-estates": "Astra Estates",
+        "25-vistas": "Astra Vistas",
+        "breach-candy-residential": "Astra Clifton Residences",
+        "bandra-east-commercial-project": "Astra Commercial Centre",
+        "sunstream-city": "Astra Stream City",
+        "sunstream-city-residential": "Astra Stream City",
+        "asmeeta-textile-park": "Astra Industrial Park",
+        "dlf-akruti-info-parks": "Astra Tech Park",
     }
     if slug in special:
         return special[slug]
     parts = slug.replace("hubtown-", "").replace("akruti-", "").replace("ackruti-", "")
-    return f"Meridian {parts.replace('-', ' ').title()}".strip()
+    return f"Astra {parts.replace('-', ' ').title()}".strip()
 
 
 def apply_content(text: str) -> str:
@@ -286,7 +286,7 @@ def process_projects(text: str) -> str:
             continue
         city = slug_to_city(slug)
         new_title = slug_to_title(slug)
-        for prefix in ("Hubtown ", " Akruti ", "Akruti ", "Ackruti ", " Meridian "):
+        for prefix in ("Hubtown ", " Akruti ", "Akruti ", "Ackruti ", " Astra "):
             pass
         # Replace common title patterns
         base = slug.replace("hubtown-", "").replace("akruti-", "").replace("ackruti-", "")
@@ -336,7 +336,7 @@ def main():
 
         if path.name == "PREVIEW.txt":
             updated = (
-                "Meridian Developments Pakistan — localized preview\n"
+                "Astra Developments Pakistan — localized preview\n"
                 "==================================================\n\n"
                 f"Brand: {BRAND}\n"
                 f"Tagline: {TAGLINE}\n"

@@ -1,12 +1,12 @@
-Meridian Developments Pakistan — localized preview
-==================================================
+Astra Urban Pakistan — localized preview
+====================
 
-Brand: Meridian Developments Pakistan
+Brand: Astra Urban Pakistan
 Tagline: Shaping Pakistan's Urban Future
-Domain: meridiandevelopments.pk (deploy: https://meridian-pk.vercel.app)
+Domain: astraurban.pk (deploy: https://astra-urban-pk.vercel.app)
 
-Original template source: Hubtown India clone (content replaced; design unchanged)
+Original template: premium real estate clone (fully rebranded for Pakistan)
 
-Preview server (caching proxy):
+Preview server:
   python serve_proxy.py
   Then open: http://127.0.0.1:8765/
