@@ -1,0 +1,17 @@
+# Local dev / tooling — not needed for static deployment
+*.py
+__pycache__/
+.venv/
+venv/
+
+# Deprecated local preview
+static-preview/
+previews/
+PREVIEW.txt
+raw.html
+network-index.html
+
+# Editor / OS
+.cursor/
+.DS_Store
+Thumbs.db

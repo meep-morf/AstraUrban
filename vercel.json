@@ -1,0 +1,341 @@
+{
+  "version": 2,
+  "buildCommand": null,
+  "outputDirectory": ".",
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/projects/25-downtown",
+      "destination": "/projects/astra-downtown",
+      "permanent": true
+    },
+    {
+      "source": "/projects/25-estates",
+      "destination": "/projects/astra-estates",
+      "permanent": true
+    },
+    {
+      "source": "/projects/25-south",
+      "destination": "/projects/astra-south",
+      "permanent": true
+    },
+    {
+      "source": "/projects/25-vistas",
+      "destination": "/projects/astra-vistas",
+      "permanent": true
+    },
+    {
+      "source": "/projects/25-west",
+      "destination": "/projects/astra-west",
+      "permanent": true
+    },
+    {
+      "source": "/projects/ackruti-centre-point",
+      "destination": "/projects/astra-corporate-centre-point",
+      "permanent": true
+    },
+    {
+      "source": "/projects/ackruti-corporate-park",
+      "destination": "/projects/astra-corporate-corporate-park",
+      "permanent": true
+    },
+    {
+      "source": "/projects/ackruti-gold",
+      "destination": "/projects/astra-corporate-gold",
+      "permanent": true
+    },
+    {
+      "source": "/projects/ackruti-softech-park",
+      "destination": "/projects/astra-corporate-softech-park",
+      "permanent": true
+    },
+    {
+      "source": "/projects/ackruti-star",
+      "destination": "/projects/astra-corporate-star",
+      "permanent": true
+    },
+    {
+      "source": "/projects/ackruti-trade-centre",
+      "destination": "/projects/astra-corporate-trade-centre",
+      "permanent": true
+    },
+    {
+      "source": "/projects/akruti-aastha",
+      "destination": "/projects/astra-aastha",
+      "permanent": true
+    },
+    {
+      "source": "/projects/akruti-aditya",
+      "destination": "/projects/astra-aditya",
+      "permanent": true
+    },
+    {
+      "source": "/projects/akruti-arcade",
+      "destination": "/projects/astra-arcade",
+      "permanent": true
+    },
+    {
+      "source": "/projects/akruti-business-port",
+      "destination": "/projects/astra-business-port",
+      "permanent": true
+    },
+    {
+      "source": "/projects/akruti-elegance",
+      "destination": "/projects/astra-elegance",
+      "permanent": true
+    },
+    {
+      "source": "/projects/akruti-erica",
+      "destination": "/projects/astra-erica",
+      "permanent": true
+    },
+    {
+      "source": "/projects/akruti-kailash",
+      "destination": "/projects/astra-kailash",
+      "permanent": true
+    },
+    {
+      "source": "/projects/akruti-laxmi",
+      "destination": "/projects/astra-laxmi",
+      "permanent": true
+    },
+    {
+      "source": "/projects/akruti-niharika",
+      "destination": "/projects/astra-niharika",
+      "permanent": true
+    },
+    {
+      "source": "/projects/akruti-orchid-park",
+      "destination": "/projects/astra-orchid-park",
+      "permanent": true
+    },
+    {
+      "source": "/projects/akruti-orion",
+      "destination": "/projects/astra-orion",
+      "permanent": true
+    },
+    {
+      "source": "/projects/akruti-smc",
+      "destination": "/projects/astra-smc",
+      "permanent": true
+    },
+    {
+      "source": "/projects/asmeeta-textile-park",
+      "destination": "/projects/astra-industrial-park",
+      "permanent": true
+    },
+    {
+      "source": "/projects/bandra-east-commercial-project",
+      "destination": "/projects/astra-commercial-centre",
+      "permanent": true
+    },
+    {
+      "source": "/projects/breach-candy-residential",
+      "destination": "/projects/astra-clifton-residences",
+      "permanent": true
+    },
+    {
+      "source": "/projects/dlf-akruti-info-parks",
+      "destination": "/projects/astra-tech-park",
+      "permanent": true
+    },
+    {
+      "source": "/projects/hubtown-celeste",
+      "destination": "/projects/astra-celeste",
+      "permanent": true
+    },
+    {
+      "source": "/projects/hubtown-countrywoods",
+      "destination": "/projects/astra-countrywoods",
+      "permanent": true
+    },
+    {
+      "source": "/projects/hubtown-gardenia",
+      "destination": "/projects/astra-gardenia",
+      "permanent": true
+    },
+    {
+      "source": "/projects/hubtown-greenwoods",
+      "destination": "/projects/astra-greenwoods",
+      "permanent": true
+    },
+    {
+      "source": "/projects/hubtown-harmony",
+      "destination": "/projects/astra-harmony",
+      "permanent": true
+    },
+    {
+      "source": "/projects/hubtown-heaven",
+      "destination": "/projects/astra-heaven",
+      "permanent": true
+    },
+    {
+      "source": "/projects/hubtown-hillcrest",
+      "destination": "/projects/astra-hillcrest",
+      "permanent": true
+    },
+    {
+      "source": "/projects/hubtown-iris",
+      "destination": "/projects/astra-iris",
+      "permanent": true
+    },
+    {
+      "source": "/projects/hubtown-joyos-geeta-mandir",
+      "destination": "/projects/astra-joyos-geeta-mandir",
+      "permanent": true
+    },
+    {
+      "source": "/projects/hubtown-joyos-surat",
+      "destination": "/projects/astra-joyos-surat",
+      "permanent": true
+    },
+    {
+      "source": "/projects/hubtown-joyos-vadodara",
+      "destination": "/projects/astra-joyos-vadodara",
+      "permanent": true
+    },
+    {
+      "source": "/projects/hubtown-northstar",
+      "destination": "/projects/astra-northstar",
+      "permanent": true
+    },
+    {
+      "source": "/projects/hubtown-palmrose",
+      "destination": "/projects/astra-palmrose",
+      "permanent": true
+    },
+    {
+      "source": "/projects/hubtown-premiere-residences",
+      "destination": "/projects/astra-premiere-residences",
+      "permanent": true
+    },
+    {
+      "source": "/projects/hubtown-redwood-rosewood",
+      "destination": "/projects/astra-redwood-rosewood",
+      "permanent": true
+    },
+    {
+      "source": "/projects/hubtown-rhythm",
+      "destination": "/projects/astra-rhythm",
+      "permanent": true
+    },
+    {
+      "source": "/projects/hubtown-rising-city",
+      "destination": "/projects/astra-rising-city",
+      "permanent": true
+    },
+    {
+      "source": "/projects/hubtown-seasons",
+      "destination": "/projects/astra-seasons",
+      "permanent": true
+    },
+    {
+      "source": "/projects/hubtown-sequoia",
+      "destination": "/projects/astra-sequoia",
+      "permanent": true
+    },
+    {
+      "source": "/projects/hubtown-shikhar",
+      "destination": "/projects/astra-shikhar",
+      "permanent": true
+    },
+    {
+      "source": "/projects/hubtown-skybay",
+      "destination": "/projects/astra-skybay",
+      "permanent": true
+    },
+    {
+      "source": "/projects/hubtown-solaris",
+      "destination": "/projects/astra-solaris",
+      "permanent": true
+    },
+    {
+      "source": "/projects/hubtown-sunmist",
+      "destination": "/projects/astra-sunmist",
+      "permanent": true
+    },
+    {
+      "source": "/projects/hubtown-sunstone",
+      "destination": "/projects/astra-sunstone",
+      "permanent": true
+    },
+    {
+      "source": "/projects/hubtown-trade-centre",
+      "destination": "/projects/astra-trade-centre",
+      "permanent": true
+    },
+    {
+      "source": "/projects/hubtown-vedant",
+      "destination": "/projects/astra-vedant",
+      "permanent": true
+    },
+    {
+      "source": "/projects/hubtown-viva",
+      "destination": "/projects/astra-viva",
+      "permanent": true
+    },
+    {
+      "source": "/projects/sunstream-city",
+      "destination": "/projects/astra-stream-city",
+      "permanent": true
+    },
+    {
+      "source": "/projects/sunstream-city-residential",
+      "destination": "/projects/astra-stream-city-residential",
+      "permanent": true
+    },
+    {
+      "source": "/favicon.ico",
+      "destination": "/images/favicon/favicon.ico",
+      "permanent": false
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*\\.wasm)",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/wasm"
+        }
+      ]
+    },
+    {
+      "source": "/draco/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/basis/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/webgl/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=86400"
+        }
+      ]
+    },
+    {
+      "source": "/_nuxt/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    }
+  ]
+}
